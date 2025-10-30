@@ -1,0 +1,14 @@
+# --- OS / エディタ関連 ---
+.DS_Store
+.vscode/
+.idea/
+
+# --- Docker関連 ---
+db_data/           # MySQLの永続化データ
+vendor/            # Composerで生成される依存ライブラリ
+node_modules/      # JS関連を追加する場合に備えて
+.env               # パスワードなどを入れる環境変数ファイル
+
+# --- ログ / キャッシュ ---
+*.log
+*.tmp
