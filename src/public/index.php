@@ -1,2 +1,47 @@
 <?php
-phpinfo();
+
+echo $_POST
+
+?>
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="title">掲示板</h1>
+    <hr>
+    <div class="boardWrapper">
+        <section>
+            <article>
+                <div class="wrapper">
+                    <div class="nameArea">
+                        <span>名前：</span>
+                        <p class="username">kakugen</p>
+                        <time>:2025/11/04</time>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <form class="formWrapper">
+            <div>
+                <input type="submit" value="書き込む">
+                <label for="">名前:</label>
+                <input type="text" name="username">
+            </div>
+            <p class="comment">手書きコメントです</p>
+            <div>
+                <textarea class="commentTextArea"></textarea>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
